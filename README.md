@@ -1,4 +1,4 @@
-# salman.me
+# Salman Ansari Portfolio
 
 A **neo-brutalist interactive developer portfolio** built using **vanilla HTML, CSS, and JavaScript**.
 
@@ -9,7 +9,7 @@ No dependencies.
 This portfolio combines **bold neo-brutalist design**, an **interactive terminal interface**, and several **developer-style tools** such as weather lookup, calculator, and resume download.
 
 Live Site  
-https://salman.me
+https://salman-ansari-portfolio.vercel.app
 
 ---
 
@@ -297,7 +297,7 @@ Full-Stack Developer
 Co-Founder of **The ARC Studio**
 
 Portfolio  
-https://salman.me
+https://salman-ansari-portfolio.vercel.app
 
 ---
 
