@@ -1037,7 +1037,7 @@ ${this.wrapWithColor("╰──────────────────�
         description: "A unique terminal-based resume with interactive features",
         image: "path/to/project-image.jpg",
         technologies: ["JavaScript", "HTML", "CSS"],
-        demo: "https://github.com/Salman99A",
+        demo: "https://salman-ansari-portfolio.vercel.app/terminal.html",
         repo: "https://github.com/Salman99A",
       },
       // Add more projects
@@ -1197,7 +1197,7 @@ ${this.wrapWithColor("╰──────────────────�
     setTimeout(() => {
       const link = document.createElement("a");
       link.href = "TECH_PORTFOLIO"; // path to your resume
-      link.download = "Salman_Ansari_Resume.pdf";
+      link.download = "Resume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

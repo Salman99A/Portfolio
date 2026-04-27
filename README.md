@@ -168,7 +168,7 @@ Resume downloaded successfully.
 The file downloaded is:
 
 ```
-Salman_Ansari_Resume.pdf
+Resume.pdf
 ```
 
 ---
@@ -247,7 +247,7 @@ OpenStreetMap Nominatim — geocoding
 ├── neo-styles.css
 ├── styles.css
 ├── favicon.svg
-├── Salman_Ansari_Resume.pdf
+├── Resume.pdf
 ├── image/
 │   ├── ARC-logo.png
 │   ├── ARC-logo.svg
