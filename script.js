@@ -1196,7 +1196,7 @@ ${this.wrapWithColor("╰──────────────────�
 
     setTimeout(() => {
       const link = document.createElement("a");
-      link.href = "TECH_PORTFOLIO"; // path to your resume
+      link.href = "/Resume.pdf"; // path to your resume
       link.download = "Resume.pdf";
       document.body.appendChild(link);
       link.click();
