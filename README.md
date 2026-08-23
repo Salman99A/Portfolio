@@ -291,12 +291,14 @@ http://localhost:8000
 
 # Author
 
-Salman Ansari  
+Salman Ansari
+
 Full-Stack Developer
 
-Co-Founder of **The ARC Studio**
+Vice President of **E-Cell, Bharati Vidyapeeth**
 
-Portfolio  
+Portfolio
+
 https://salman-ansari-portfolio.vercel.app
 
 ---
