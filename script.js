@@ -539,7 +539,7 @@ class TerminalResume {
         "#888888",
       ) +
       this.wrapWithColor(
-        "         Full-Stack Developer • Creative Technologist • Co-Founder @ The ARC Studio\n",
+        "         Full-Stack Developer • Creative Technologist • Vice President @ E-Cell\n",
         "#666666",
       ) +
       this.wrapWithColor(divider + "\n\n", "#555555") +
@@ -1822,7 +1822,7 @@ ${this.wrapWithColor("╰──────────────────�
     // Add role
     const role = document.createElement("div");
     role.textContent =
-      "Full-Stack Developer • Creative Technologist • Co-Founder @ The ARC Studio";
+      "Full-Stack Developer • Creative Technologist • Vice President @ E-Cell";
     role.style.color = "#666666";
     role.style.fontSize = "10px";
     role.style.fontFamily = "'Fira Code', monospace";
