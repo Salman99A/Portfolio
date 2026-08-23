@@ -522,12 +522,12 @@ class TerminalResume {
   }
 
   printWelcomeMessage(outputElement = this.output) {
-    const asciiArt = `███╗   ███╗ █████╗ ██████╗ ██╗ ██████╗
-████╗ ████║██╔══██╗██╔══██╗██║██╔═══██╗
-██╔████╔██║███████║██████╔╝██║██║   ██║
-██║╚██╔╝██║██╔══██║██╔══██╗██║██║   ██║
-██║ ╚═╝ ██║██║  ██║██║  ██║██║╚██████╔╝
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ `;
+    const asciiArt = `███████╗ █████╗ ██╗     ███╗   ███╗ █████╗ ███╗   ██╗
+██╔════╝██╔══██╗██║     ████╗ ████║██╔══██╗████╗  ██║
+███████╗███████║██║     ██╔████╔██║███████║██╔██╗ ██║
+╚════██║██╔══██║██║     ██║╚██╔╝██║██╔══██║██║╚██╗██║
+███████║██║  ██║███████╗██║ ╚═╝ ██║██║  ██║██║ ╚████║
+╚══════╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝`;
 
     const divider = "─────────────────────────────────────────────────";
 
@@ -651,7 +651,7 @@ ${this.wrapWithColor(
   "#ff8c00",
 )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
-      "Full-Stack Developer with 2+ years of hands-on experience",
+      "Third-Year B.Tech IT Student & Full-Stack Developer",
       "#ffffff",
     )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
@@ -664,11 +664,18 @@ ${this.wrapWithColor(
 )}
 
 ${this.wrapWithColor("⚡ Experience", "#ff8c00")}
+${this.wrapWithColor("   Building interactive applications using", "#ffffff")}
+${this.wrapWithColor("   React, JavaScript, Node.js, and modern web technologies", "#ff8c00")}
+
+${this.wrapWithColor("⚡ Leadership", "#ff8c00")}
 ${this.wrapWithColor(
-  "   Building interactive and scalable applications using",
+  "   Vice President of the E-Cell at Bharati Vidyapeeth,",
   "#ffffff",
 )}
-${this.wrapWithColor("   React, JavaScript, Node.js, and modern web technologies", "#ff8c00")}
+${this.wrapWithColor(
+  "   leading creative and collaborative student initiatives",
+  "#ffffff",
+)}
 
 ${this.wrapWithColor("⚡ Passion", "#ff8c00")}
 ${this.wrapWithColor(
@@ -682,28 +689,21 @@ ${this.wrapWithColor(
 
 ${this.wrapWithColor("⚡ Strengths", "#ff8c00")}
 ${this.wrapWithColor(
-  "   Creative problem solver with a strong foundation in,",
+  "   Creative problem solver with a strong foundation in",
   "#ffffff",
 )}
 ${this.wrapWithColor("   full-stack development, UI/UX thinking, and modern web architecture", "#ffffff")}
-
-${this.wrapWithColor("⚡ Beyond Code", "#ff8c00")}
-${this.wrapWithColor("   Co-Founder of The ARC Studio, working on", "#ffffff")}
-${this.wrapWithColor(
-  "   branding, design systems, and digital experiences",
-  "#ffffff",
-)}
 
 ${this.wrapWithColor(
   "╭──────────────────────────────────────────────────────────╮",
   "#ff8c00",
 )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
-      "Ready to build innovative products and impactful digital",
+      "Building impactful digital experiences through technology",
       "#ffffff",
     )}
 ${this.wrapWithColor("│", "#ff8c00")} ${this.wrapWithColor(
-      "experiences through technology and creativity.",
+      "and creativity.",
       "#ffffff",
     )}
 ${this.wrapWithColor(
@@ -791,39 +791,49 @@ ${this.wrapWithColor(
   showExperience(outputElement = this.output) {
     const experience = `<span style="color: #ffff00; font-weight: bold;">💼 Professional Experience</span>
 
-<span style="color: #00ffff;">THE ARC STUDIO | Co-Founder & Creative Developer</span>
+<span style="color: #00ffff;">E-CELL | Vice President</span>
 ${this.wrapWithColor(
-  "2025 – Present | Mumbai, India | Graphic Design & Branding Agency",
+  "2026 – Present | Bharati Vidyapeeth, Navi Mumbai",
   "#ffffff",
 )}
 ${this.wrapWithColor(
-  "Building brands through design, creativity, and digital experiences",
+  "Leading creative and collaborative initiatives while building technical communities and student experiences",
   "#98fb98",
 )}
 
-• ${this.wrapWithColor("Co-Founder", "#ffa07a")} - ${this.wrapWithColor(
-      "Co-founded a creative agency focused on branding, graphic design, and digital experiences",
+• ${this.wrapWithColor("Leadership", "#ffa07a")} - ${this.wrapWithColor(
+      "Leading creative and collaborative initiatives within the E-Cell",
       "#ffffff",
     )}
-• ${this.wrapWithColor(
-      "Design & Creative Direction",
-      "#ffa07a",
-    )} - ${this.wrapWithColor(
-      "Worked on visual identity, branding systems, and marketing creatives for clients",
-      "#ffffff",
-    )}
-• ${this.wrapWithColor("UI/UX & Web Development", "#ffa07a")} - ${this.wrapWithColor(
-      "Designed and developed modern websites and interactive digital experiences",
-      "#ffffff",
-    )}
-• ${this.wrapWithColor("Creative Collaboration", "#ffa07a")} - ${this.wrapWithColor(
-      "Collaborated on design concepts, digital assets, and product visuals.",
+• ${this.wrapWithColor("Community Building", "#ffa07a")} - ${this.wrapWithColor(
+      "Contributing to technical communities, events, and student experiences",
       "#ffffff",
     )}
 
-${this.wrapWithColor("Tools & Technologies:", "#00ffff")} ${this.wrapWithColor(
-      "Figma, Adobe Creative Tools, HTML, CSS, JavaScript, React, Git",
-      "#87cefa",
+<span style="color: #00ffff;">BETA | Design Head</span>
+${this.wrapWithColor(
+  "2025 – 2026 | Bharati Vidyapeeth, Navi Mumbai",
+  "#ffffff",
+)}
+
+• ${this.wrapWithColor("Design Leadership", "#ffa07a")} - ${this.wrapWithColor(
+      "Led the club's design team and guided creative direction",
+      "#ffffff",
+    )}
+• ${this.wrapWithColor("Creative Assets", "#ffa07a")} - ${this.wrapWithColor(
+      "Designed event posters, flyers, and other creative assets",
+      "#ffffff",
+    )}
+
+<span style="color: #00ffff;">COLLEGE COUNCIL | Social Media & Design Member</span>
+${this.wrapWithColor(
+  "2025 – 2026 | Bharati Vidyapeeth, Navi Mumbai",
+  "#ffffff",
+)}
+
+• ${this.wrapWithColor("Design", "#ffa07a")} - ${this.wrapWithColor(
+      "Designed event posters, social media creatives, and the Alkemy college fest banner",
+      "#ffffff",
     )}
 
 <span style="color: #00ffff;">PERSONAL PROJECTS | Full-Stack Developer</span>
@@ -833,18 +843,9 @@ ${this.wrapWithColor("2023 – Present | Navi Mumbai, India", "#ffffff")}
       "Built modern full-stack web applications using React, Node.js and REST APIs",
       "#ffffff",
     )}
-• ${this.wrapWithColor("Creative Web Experiences", "#ffa07a")} - ${this.wrapWithColor(
-      "Designed interactive UI and modern responsive websites",
+• ${this.wrapWithColor("Technical Projects", "#ffa07a")} - ${this.wrapWithColor(
+      "Built and explored projects across full-stack development and emerging technologies",
       "#ffffff",
-    )}
-• ${this.wrapWithColor("Experimental Projects", "#ffa07a")} - ${this.wrapWithColor(
-      "Explored AI tools, automation systems, and creative technology ideas",
-      "#ffffff",
-    )}
-
-${this.wrapWithColor("Technologies used:", "#00ffff")} ${this.wrapWithColor(
-      "JavaScript, React, Node.js, Express, HTML5, CSS3, MongoDB, MySQL, Git",
-      "#87cefa",
     )}
 
 <span style="color: #00ffff;">BHARATI VIDYAPEETH | B.Tech IT Student</span>
@@ -880,7 +881,7 @@ ${this.wrapWithColor(
   "#ff8c00",
 )}
 ${this.wrapWithColor("│", "#ff8c00")}${this.wrapWithColor(
-      " B.Tech IT ",
+      " B.Tech IT - Third Year ",
       "#ffffff",
     )}${this.wrapWithColor("│", "#ff8c00")}
 ${this.wrapWithColor(
@@ -923,18 +924,18 @@ ${this.wrapWithColor(
   showSkills(outputElement = this.output) {
     const skills = `<span style="color: #ffff00; font-weight: bold;">🛠️ PROGRAMMING</span>
 
-• ${this.wrapWithColor("HTML5", "#ffffff")}
-• ${this.wrapWithColor("CSS", "#ffffff")}
-• ${this.wrapWithColor("Javascript", "#ffffff")}
-• ${this.wrapWithColor("Node", "#ffffff")}
-• ${this.wrapWithColor("React", "#ffffff")}
+• ${this.wrapWithColor("JavaScript", "#ffffff")}
+• ${this.wrapWithColor("Java", "#ffffff")}
 • ${this.wrapWithColor("Python", "#ffffff")}
-• ${this.wrapWithColor("Google Cloud", "#ffffff")}
-• ${this.wrapWithColor("AWS", "#ffffff")}
-• ${this.wrapWithColor("Azure", "#ffffff")}
-• ${this.wrapWithColor("Docker", "#ffffff")}
+• ${this.wrapWithColor("React.js", "#ffffff")}
+• ${this.wrapWithColor("Node.js", "#ffffff")}
+• ${this.wrapWithColor("Express.js", "#ffffff")}
+• ${this.wrapWithColor("PHP", "#ffffff")}
 • ${this.wrapWithColor("MongoDB", "#ffffff")}
-• ${this.wrapWithColor("SQL", "#ffffff")}`;
+• ${this.wrapWithColor("MySQL", "#ffffff")}
+• ${this.wrapWithColor("Git & GitHub", "#ffffff")}
+• ${this.wrapWithColor("REST APIs", "#ffffff")}
+• ${this.wrapWithColor("Data Structures", "#ffffff")}`;
 
     const skillsDiv = document.createElement("div");
     skillsDiv.innerHTML = skills;
@@ -964,7 +965,7 @@ ${this.wrapWithColor("🌐", "#ff8c00")}  ${this.wrapWithColor(
       "Website:",
       "#ff8c00",
     )} ${this.wrapWithColor(
-      '<a href="https://salman.me" target="_blank" style="color: #ffffff; text-decoration: none;">salman.me</a>',
+      '<a href="https://salman-ansari-portfolio.vercel.app/" target="_blank" style="color: #ffffff; text-decoration: none;">https://salman-ansari-portfolio.vercel.app/</a>',
       "#ffffff",
     )}
 
@@ -1059,10 +1060,11 @@ ${this.wrapWithColor("╰──────────────────�
       cloud: {
         "Google Cloud": 75,
         AWS: 70,
+        Azure: 65,
       },
       databases: {
         MongoDB: 85,
-        PostgreSQL: 70,
+        MySQL: 80,
         SQL: 75,
       },
     };
@@ -1791,12 +1793,12 @@ ${this.wrapWithColor("╰──────────────────�
     asciiArt.style.fontSize = "10px";
     asciiArt.style.fontFamily = "'Fira Code', monospace";
     asciiArt.style.lineHeight = "1";
-    asciiArt.innerHTML = `███╗   ███╗ █████╗ ██████╗ ██╗ ██████╗
-████╗ ████║██╔══██╗██╔══██╗██║██╔═══██╗
-██╔████╔██║███████║██████╔╝██║██║   ██║
-██║╚██╔╝██║██╔══██║██╔══██╗██║██║   ██║
-██║ ╚═╝ ██║██║  ██║██║  ██║██║╚██████╔╝
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ `;
+    asciiArt.innerHTML = ` ███████╗  █████╗  ██╗     ███╗   ███╗  █████╗  ███╗   ██╗
+ ██╔════╝ ██╔══██╗ ██║     ████╗ ████║ ██╔══██╗ ████╗  ██║
+ ███████╗ ███████║ ██║     ██╔████╔██║ ███████║ ██╔██╗ ██║
+ ╚════██║ ██╔══██║ ██║     ██║╚██╔╝██║ ██╔══██║ ██║╚██╗██║
+ ███████║ ██║  ██║ ███████╗██║ ╚═╝ ██║ ██║  ██║ ██║ ╚████║
+ ╚══════╝ ╚═╝  ╚═╝ ╚══════╝╚═╝     ╚═╝ ╚═╝  ╚═╝ ╚═╝  ╚═══╝`;
     terminalContent.appendChild(asciiArt);
 
     // Add divider
@@ -1952,7 +1954,7 @@ ${this.wrapWithColor("╰──────────────────�
     urlContainer.style.textAlign = "center";
 
     const url = document.createElement("div");
-    url.textContent = "salman.me";
+    url.textContent = "https://salman-ansari-portfolio.vercel.app/";
     url.style.color = "#87cefa";
     url.style.fontSize = "12px";
     url.style.fontFamily = "'Fira Code', monospace";

@@ -3039,7 +3039,6 @@ body[data-theme="dark"] .contact-card:nth-child(3) {
   background: #ff6b9d;
 }
 
-
 body[data-theme="dark"] .contact-card::before {
   background: rgba(255, 255, 255, 0.3);
 }
